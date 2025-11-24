@@ -1,2 +1,4 @@
 # pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
+# pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+# pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple/
 pyspark
