@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for PySpark_End_to_End.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: PySpark_End_to_End
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-504718677761210.10.azuredatabricks.net
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://adb-504718677761210.10.azuredatabricks.net

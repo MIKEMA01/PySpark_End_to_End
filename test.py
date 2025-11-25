@@ -1,0 +1,1 @@
+spark.read.text("file:///Workspace/Users/adm.mike.m.ma@dbschenker.com/.bundle/PySpark_End_to_End/dev/files/test.txt").show()
